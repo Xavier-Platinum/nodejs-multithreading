@@ -1,9 +1,9 @@
-import { parentPort } from "node:worker_threads";
+import { parentPort, workerData } from "node:worker_threads";
 
 let counter = 0;
-const numcount = parseInt(process.hrtime().join(""));
+console.log(parseInt(process.hrtime().join("")))
 
-for(let i = 0; i < numcount; i++) {
+for(let i = 0; i < parseInt(process.hrtime().join(""))/workerData.thread_count; i++) {
     counter++;
 }
 
