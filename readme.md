@@ -7,3 +7,6 @@
 ```
     run time curl --get http://localhost:8000/blocking
 ```
+
+## Benchmarks
+<img src="./screenshots/Screenshot.png" alt="Image">
