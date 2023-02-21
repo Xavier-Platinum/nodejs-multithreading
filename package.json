@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-multi-threading",
+  "version": "1.0.0",
+  "description": "Nodejs Multithreading",
+  "main": "index.js",
+  "repository": "git remote add origin git@github.com:Xavier-Platinum/nodejs-multithreading.git",
+  "author": "Kwis Lawrence Francis",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "nodemon index.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
