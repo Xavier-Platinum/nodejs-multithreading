@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Nodejs Multithreading",
   "main": "index.js",
-  "repository": "git remote add origin git@github.com:Xavier-Platinum/nodejs-multithreading.git",
+  "repository": "git@github.com:Xavier-Platinum/nodejs-multithreading.git",
   "author": "Kwis Lawrence Francis",
   "scripts": {
     "start": "node index.mjs",
